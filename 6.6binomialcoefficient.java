@@ -21,9 +21,10 @@ class binomial{
         int n = sc.nextInt();
         System.out.print("Enter the value of r : ");
         int r = sc.nextInt();
-       /* int b= bincoeff(n,r);
-        System.out.println("binomial coefficient is = "+b);*/
-        System.out.println("binomial coefficient is = "+bincoeff(n,r));
+        int b= bincoeff(n,r);
+        System.out.println("binomial coefficient is = "+b);
+        //System.out.println("binomial coefficient is = "+bincoeff(n,r));
+     
     }
     
 }
